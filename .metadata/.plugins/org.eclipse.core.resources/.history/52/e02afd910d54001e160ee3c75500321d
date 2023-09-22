@@ -1,0 +1,23 @@
+package com.promineotech;
+
+public class LoopsAndBooleans {
+
+	public static void main(String[] args) {
+		
+		// Create a program that flips a coin 
+		// Hint: Do not need a loop.  - Coin only has 2 sides so we would use a boolean
+		
+		// A coin consists of 2 sides: heads and tails
+		
+		String coin = "heads"; // could be tails as well
+		
+		if (coin == "heads") {
+			System.out.print("heads");
+		} else {
+			System.out.print("tails");
+		}
+		
+
+	}
+
+}
