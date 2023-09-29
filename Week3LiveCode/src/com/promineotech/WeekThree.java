@@ -63,6 +63,9 @@ public class WeekThree {
 		// test method with void return type
 		printEachLetterInArray(fruit);
 		
+		String name ="Bob";
+		System.out.println(name.charAt(0));
+		System.out.println(name.compareTo("Bill"));
 		
 	} // end of main method scope
 	
@@ -75,6 +78,8 @@ public class WeekThree {
 			names += name + " ";
 			
 		}
+		
+		
 		
 		return names;
 	} // end of printArrayElements method
